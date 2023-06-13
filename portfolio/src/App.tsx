@@ -177,6 +177,112 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="outerdiv">
+        <div className="polydiv">
+          <div className="polycontent">
+            <h2 className="polyh1">
+              <b>SKILLS & TOOLS</b>
+            </h2>
+            <h2 className="polyh2">
+              <b>My Toolbox & Things I Can Lift</b>
+            </h2>
+
+            <div className="container text-center">
+              <div className="row">
+                <div className="col">
+                  <figure>
+                    <img
+                      className="svgimg"
+                      src="https://www.svgrepo.com/show/353925/javascript.svg"
+                      alt=""
+                    />
+                    <figcaption className="fig">Javascript</figcaption>
+                  </figure>
+                </div>
+                <div className="col">
+                  <figure>
+                    <img
+                      className="svgimg"
+                      src="https://www.svgrepo.com/show/303600/typescript-logo.svg"
+                      alt=""
+                    />
+                    <figcaption className="fig">Typescript</figcaption>
+                  </figure>
+                </div>
+                <div className="col">
+                  <figure>
+                    <img
+                      className="svgimg"
+                      src="https://www.svgrepo.com/show/452092/react.svg"
+                      alt=""
+                    />
+                    <figcaption className="fig">React</figcaption>
+                  </figure>
+                </div>
+                <div className="col">
+                  <figure>
+                    <img
+                      className="svgimg"
+                      src="https://www.svgrepo.com/show/512317/github-142.svg"
+                      alt=""
+                    />
+                    <figcaption className="fig">Git/Github</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div className="container text-center">
+              <div className="row">
+                <div className="col">
+                  <figure>
+                    <img
+                      className="svgimg"
+                      src="https://www.svgrepo.com/show/452185/css-3.svg"
+                      alt=""
+                    />
+                    <figcaption className="fig">CSS3</figcaption>
+                  </figure>
+                </div>
+                <div className="col">
+                  <figure>
+                    <img
+                      className="svgimg"
+                      src="https://www.svgrepo.com/show/353498/bootstrap.svg"
+                      alt=""
+                    />
+                    <figcaption className="fig">Bootstrap</figcaption>
+                  </figure>
+                </div>
+                <div className="col">
+                  <figure>
+                    <img
+                      className="svgimg"
+                      src="https://www.svgrepo.com/show/373848/mysql.svg"
+                      alt=""
+                    />
+                    <figcaption className="fig">MySQL</figcaption>
+                  </figure>
+                </div>
+                <div className="col">
+                  <figure>
+                    <img
+                      className="svgimg"
+                      src="https://www.svgrepo.com/show/508935/nodejs02.svg"
+                      alt=""
+                    />
+                    <figcaption className="fig">NodeJS</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <img
+              className="lift"
+              src="https://www.svgrepo.com/show/406352/man-lifting-weights-light-skin-tone.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
