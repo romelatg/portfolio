@@ -8,10 +8,15 @@
   position: relative;
 }
 
+.navbar{
+  z-index: 1000000000000;
+}
 
 .navbar-custom{
   background-color: #181c24;
   height: 6vh;
+  z-index: 1000000000;
+  position: relative;
 }
 
 .seperate{
@@ -27,6 +32,26 @@ border-width: 1rem;
   margin-bottom: .01rem;
   border-width: .2rem;
 }
+
+.headerdiv{
+  margin-top: 30vh;
+  margin-left: 10%;
+  position: absolute;
+
+
+}
+
+.fontdif{
+  z-index: 1111110;
+  font-family: 'Antic Didone', serif;
+  font-size: 8vh;
+}
+.fontdif2{
+  z-index: 1111110;
+  font-family: 'Antic Didone', serif;
+  font-size: 8vh;
+}
+
 
 
 
@@ -75,64 +100,313 @@ border-width: 1rem;
   height: 5rem;
   width: 10%;
   filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  animation: 90s linear 0s 1 slideInLeft1;
+  animation: 200s linear 0s 1 slideInLeft1;
   animation-fill-mode: forwards;
   margin-top: 10vh;
   margin-left: 10vh;
   position:absolute;
-  
 }
-
 .cat2{
+  height: 6rem;
   margin-top: 36vh;
   margin-left: 20%;
-  height: 3.5rem;
   width: 10%;
   filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  animation: 90s linear 0s 1 slideInLeft2;
+  animation: 220s linear 0s 1 slideInLeft1;
   animation-fill-mode: forwards;
   position:absolute;
 }
 .cat3{
-  margin-top: 55vh;
-  margin-left: 60vh;
-  height: 1.5rem;
+  height: 6rem;
+  margin-top: 42vh;
+  margin-left: 70%;
   width: 10%;
   filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  animation: 90s linear 0s 1 slideInLeft3;
+  animation: 160s linear 0s 1 slideInLeft2;
   animation-fill-mode: forwards;
   position:absolute;
 }
 .cat4{
-  margin-top: 62vh;
-  margin-left: 20vh;
   height: 3rem;
+  margin-top: 62vh;
+  margin-left: 77%;
   width: 10%;
   filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  animation: 90s linear 0s 1 slideInLeft3;
+  animation: 160s linear 0s 1 slideInLeft1;
   animation-fill-mode: forwards;
   position:absolute;
 }
 .cat5{
-  margin-top: 16vh;
-  margin-left: 50vh ;
   height: 2rem;
+  margin-top: 13vh;
+  margin-left: 50% ;
   width: 10%;
   filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  animation: 90s linear 0s 1 slideInLeft2;
+  animation: 200s linear 0s 1 slideInLeft1;
   animation-fill-mode: forwards;
   position:absolute;
 }
 .cat6{
+  height: 5rem;
   margin-top: 57vh;
-  margin-left: 20vh;
-  height: 4rem;
+  margin-left: 54%;
   width: 10%;
   filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  animation: 90s linear 0s 1 slideInLeft2;
+  animation: 200s linear 0s 1 slideInLeft2;
   animation-fill-mode: forwards;
   position:absolute;
 }
+.cat7{
+  height: 4.5rem;
+  margin-top: 57vh;
+  margin-left: -5vh;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat8{
+  height: 4.5rem;
+  margin-top: 34vh;
+  margin-left: -20%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 230s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat9{
+  height: 4.5rem;
+  margin-top: 48vh;
+  margin-left: -23vh;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat10{
+  height: 5.5rem;
+  margin-top: 23vh;
+  margin-left: -13vh;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat11{
+  height: 5rem;
+  margin-top: 69vh;
+  margin-left: 35%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat12{
+  height: 5rem;
+  margin-top: 5vh;
+  margin-left: 35%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat13{
+  height: 5.5rem;
+  margin-top: 40vh;
+  margin-left: 40%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat14{
+  height: 4.5rem;
+  margin-top: 35vh;
+  margin-left: 60%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 180s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat15{
+  height: 4rem;
+  margin-top: 25vh;
+  margin-left: 73%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 180s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat16{
+  height: 5rem;
+  margin-top: 68vh;
+  margin-left: 12%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 180s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat17{
+  height: 5rem;
+  margin-top:25vh;
+  margin-left: 30%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat18{
+  height: 5.5rem;
+  margin-top: 77vh;
+  margin-left: 55%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 190s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat19{
+  height: 4.5rem;
+  margin-top: 60vh;
+  margin-left: 22%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 210s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat20{
+  height: 5.5rem;
+  margin-top: 32vh;
+  margin-left: 10%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat21{
+  height: 5rem;
+  margin-top: 25vh;
+  margin-left: 50%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 190s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat22{
+  height: 4rem;
+  margin-top: 20vh;
+  margin-left: 48%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 190s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat23{
+  height: 5.6rem;
+  margin-top: 63vh;
+  margin-left: 20%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 190s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat24{
+  height: 4rem;
+  margin-top: 13vh;
+  margin-left: 20%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat25{
+  height: 2.8rem;
+  margin-top: 55vh;
+  margin-left: 10%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 200s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat26{
+  height: 4rem;
+  margin-top: 13vh;
+  margin-left: -20%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 215s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat27{
+  height: 5.5rem;
+  margin-top: 45vh;
+  margin-left: -45%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 242s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat28{
+  height: 5rem;
+  margin-top: 25vh;
+  margin-left: -35%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 237s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat29{
+  height: 4.3rem;
+  margin-top: 65vh;
+  margin-left: -30%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 235s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat30{
+  height: 4.5rem;
+  margin-top: 79vh;
+  margin-left: -10%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 220s linear 0s 1 slideInLeft2;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+.cat31{
+  height: 5rem;
+  margin-top: 13vh;
+  margin-left: -15%;
+  width: 10%;
+  filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  animation: 220s linear 0s 1 slideInLeft1;
+  animation-fill-mode: forwards;
+  position:absolute;
+}
+
 
 
 @keyframes slideInLeft1 {
@@ -141,91 +415,171 @@ border-width: 1rem;
     transform: translateX(0%);
     opacity: 0;
   }
-  2.5%{
-    opacity:.8;
+  1.5%{
+    opacity:.7;
   }
-  5%{transform: translateY(17%)
-    translateX(50%);
+  2.5%{transform: translateY(15%)
+    translateX(30%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  10%{transform: translateY(-15%)
-    translateX(100%);
+  5%{transform: translateY(-13%)
+    translateX(60%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
 
-  15%{transform: translateY(18%)
+  7.5%{transform: translateY(16%)
+    translateX(90%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  10%{transform: translateY(-14%)
+    translateX(120%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+
+  12.5%{transform: translateY(15%)
     translateX(150%);
-    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  20%{transform: translateY(-16%)
-    translateX(200%);
+  15%{transform: translateY(-15%)
+    translateX(180%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
 
-  25%{transform: translateY(17%)
-    translateX(250%);
+  17.5%{transform: translateY(14%)
+    translateX(210%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  30%{transform: translateY(-17%)
+  20%{transform: translateY(-15%)
+    translateX(230%);
+  }
+
+  22.5%{transform: translateY(17%)
+    translateX(260%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+
+  25%{transform: translateY(-15%)
     translateX(300%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-
-  35%{transform: translateY(16%)
-    translateX(350%);
+  27.5%{transform: translateY(15%)
+    translateX(330%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  40%{transform: translateY(-16%)
-    translateX(400%);
+  30%{transform: translateY(-16%)
+    translateX(360%);
   }
-
-  45%{transform: translateY(18%)
+  32.5%{transform: translateY(18%)
+    translateX(390%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  35%{transform: translateY(-16%)
+    translateX(420%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  37.5%{transform: translateY(17%)
     translateX(450%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-
-  50%{transform: translateY(-15%)
-    translateX(500%);
+  40%{transform: translateY(-15%)
+    translateX(480%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  42.5%{transform: translateY(17%)
+    translateX(510%);
+  }
+  45%{transform: translateY(-16%)
+    translateX(540%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  47.5%{transform: translateY(16%)
+    translateX(570%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  50%{transform: translateY(17%)
+    translateX(600%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  52.5%{transform: translateY(17%)
+    translateX(630%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
   55%{transform: translateY(17%)
-    translateX(550%);
-    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
-  }
-  60%{transform: translateY(-16%)
-    translateX(600%);
-  }
-  65%{transform: translateY(18%)
-    translateX(650%);
-    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
-  }
-  70%{transform: translateY(-16%)
-    translateX(700%);
+    translateX(660%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-  75%{transform: translateY(17%)
+  57.5%{transform: translateY(17%)
+    translateX(690%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  60%{transform: translateY(17%)
+    translateX(720%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  62.5%{transform: translateY(17%)
     translateX(750%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  80%{transform: translateY(-15%)
-    translateX(800%);
+  65%{transform: translateY(17%)
+    translateX(780%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-  85%{transform: translateY(17%)
-    translateX(850%);
+  67.5%{transform: translateY(17%)
+    translateX(810%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  90%{transform: translateY(-16%)
+  70%{transform: translateY(17%)
+    translateX(840%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  72.5%{transform: translateY(17%)
+    translateX(870%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  75%{transform: translateY(17%)
     translateX(900%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-  95%{transform: translateY(16%)
-    translateX(950%);
+  77.5%{transform: translateY(17%)
+    translateX(930%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  80%{transform: translateY(17%)
+    translateX(960%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  82.5%{transform: translateY(17%)
+    translateX(990%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  85%{transform: translateY(17%)
+    translateX(1020%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  87.5%{transform: translateY(17%)
+    translateX(1050%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  90%{transform: translateY(17%)
+    translateX(1080%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  92.5%{transform: translateY(17%)
+    translateX(1100%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  95%{transform: translateY(17%)
+    translateX(1130%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  97.5%{transform: translateY(17%)
+    translateX(1160%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
   100% {
     transform: translateY(-16%) translateX(1200%);
   }
-}
 
+}
 
 @keyframes slideInLeft2 {
   0% {
@@ -233,172 +587,170 @@ border-width: 1rem;
     transform: translateX(0%);
     opacity: 0;
   }
-  2.5%{
-    opacity:.8;
+  1.5%{
+    opacity:.7;
   }
-  5%{transform: translateY(17%)
-    translateX(65%);
+  2.5%{transform: translateY(15%)
+    translateX(30%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  5%{transform: translateY(-13%)
+    translateX(60%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  10%{transform: translateY(-15%)
-    translateX(100%);
+  7.5%{transform: translateY(16%)
+    translateX(90%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  10%{transform: translateY(-14%)
+    translateX(120%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  12.5%{transform: translateY(15%)
+    translateX(150%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  15%{transform: translateY(-15%)
+    translateX(180%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
 
-  15%{transform: translateY(18%)
-    translateX(150%);
-    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  17.5%{transform: translateY(14%)
+    translateX(210%);
+   
   }
-  20%{transform: translateY(-16%)
-    translateX(200%);
+  20%{transform: translateY(-15%)
+    translateX(230%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
 
-  25%{transform: translateY(17%)
-    translateX(250%);
+  22.5%{transform: translateY(17%)
+    translateX(260%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  30%{transform: translateY(-17%)
+
+  25%{transform: translateY(-15%)
     translateX(300%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-  35%{transform: translateY(16%)
-    translateX(350%);
-  }
-  40%{transform: translateY(-16%)
-    translateX(400%);
-    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  }
-  45%{transform: translateY(18%)
-    translateX(450%);
+  27.5%{transform: translateY(15%)
+    translateX(330%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  50%{transform: translateY(-15%)
-    translateX(500%);
+  30%{transform: translateY(-16%)
+    translateX(360%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-  55%{transform: translateY(17%)
-    translateX(550%);
-
+  32.5%{transform: translateY(18%)
+    translateX(390%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  60%{transform: translateY(-16%)
+  35%{transform: translateY(-16%)
+    translateX(420%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  37.5%{transform: translateY(17%)
+    translateX(450%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  40%{transform: translateY(-15%)
+    translateX(480%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  42.5%{transform: translateY(17%)
+    translateX(510%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  45%{transform: translateY(-16%)
+    translateX(540%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  47.5%{transform: translateY(16%)
+    translateX(570%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  50%{transform: translateY(17%)
     translateX(600%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-  65%{transform: translateY(18%)
-    translateX(650%);
+  52.5%{transform: translateY(17%)
+    translateX(630%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  70%{transform: translateY(-16%)
-    translateX(700%);
+  55%{transform: translateY(17%)
+    translateX(660%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  75%{transform: translateY(17%)
+  57.5%{transform: translateY(17%)
+    translateX(690%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  60%{transform: translateY(17%)
+    translateX(720%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  62.5%{transform: translateY(17%)
     translateX(750%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  80%{transform: translateY(-15%)
-    translateX(800%);
+  65%{transform: translateY(17%)
+    translateX(780%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-  85%{transform: translateY(17%)
-    translateX(850%);
-  }
-  90%{transform: translateY(-16%)
-    translateX(900%);
-    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  }
-  95%{transform: translateY(16%)
-    translateX(950%);
+  67.5%{transform: translateY(17%)
+    translateX(810%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
-  100% {
-    transform: translateY(-16%) translateX(1200%);
-  }
-}
-
-@keyframes slideInLeft3 {
-  0% {
-    transform: translateY(-16%);
-    transform: translateX(0%);
-    opacity: 0;
-  }
-  2.5%{
-    opacity:.8;
-  }
-  5%{transform: translateY(17%)
-    translateX(55%);
-    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
-  }
-  10%{transform: translateY(-15%)
-    translateX(105%);
-  }
-
-  15%{transform: translateY(18%)
-    translateX(140%);
-    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
-  }
-  20%{transform: translateY(-16%)
-    translateX(207%);
+  70%{transform: translateY(17%)
+    translateX(840%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-
-  25%{transform: translateY(17%)
-    translateX(245%);
+  72.5%{transform: translateY(17%)
+    translateX(870%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
-  }
-  30%{transform: translateY(-17%)
-    translateX(300%);
-    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  }
-  35%{transform: translateY(16%)
-    translateX(345%);
-  }
-  40%{transform: translateY(-16%)
-    translateX(395%);
-    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  }
-  45%{transform: translateY(18%)
-    translateX(458%);
-    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
-  }
-  50%{transform: translateY(-15%)
-    translateX(510%);
-    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  }
-  55%{transform: translateY(17%)
-    translateX(543%);
-
-  }
-  60%{transform: translateY(-16%)
-    translateX(603%);
-    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  }
-  65%{transform: translateY(18%)
-    translateX(650%);
-    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
-  }
-  70%{transform: translateY(-16%)
-    translateX(700%);
   }
   75%{transform: translateY(17%)
-    translateX(752%);
-    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
-  }
-  80%{transform: translateY(-15%)
-    translateX(815%);
-    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
-  }
-  85%{transform: translateY(17%)
-    translateX(853%);
-  }
-  90%{transform: translateY(-16%)
     translateX(900%);
     filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
   }
-  95%{transform: translateY(16%)
-    translateX(950%);
+  77.5%{transform: translateY(17%)
+    translateX(930%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  80%{transform: translateY(17%)
+    translateX(960%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  82.5%{transform: translateY(17%)
+    translateX(990%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  85%{transform: translateY(17%)
+    translateX(1020%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  87.5%{transform: translateY(17%)
+    translateX(1050%);
+    filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
+  }
+  90%{transform: translateY(17%)
+    translateX(1080%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  92.5%{transform: translateY(17%)
+    translateX(1100%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  95%{transform: translateY(17%)
+    translateX(1130%);
+    filter: invert(52%) sepia(8%) saturate(321%) hue-rotate(182deg) brightness(91%) contrast(94%); /* Dark */
+  }
+  97.5%{transform: translateY(17%)
+    translateX(1160%);
     filter: invert(96%) sepia(5%) saturate(986%) hue-rotate(201deg) brightness(70%) contrast(86%);/* Light */
   }
   100% {
     transform: translateY(-16%) translateX(1200%);
   }
+
 }

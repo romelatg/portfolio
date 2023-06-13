@@ -3,9 +3,6 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Alexis Tobias
-          </a>
           <button
             className="navbar-toggler"
             type="button"
