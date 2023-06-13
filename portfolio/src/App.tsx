@@ -160,51 +160,23 @@ function App() {
           alt=""
         />
         <div className="headerdiv">
-          <h1 className="fontdif">I'm Alexis Tobias</h1>
-          <h1 className="fontdif2">Front-End Developer</h1>
-        </div>
-      </div>
-
-      {/* <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
+          <h1 className="fontdif">I'm Alexis Tobias, </h1>
+          <h1 className="fontdif2">Front-End</h1>
+          <a href="">
+            <img
+              className="github"
+              src="https://www.svgrepo.com/show/512317/github-142.svg"
+              alt=""
+            />
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
+          <div>
+            <p className="fontdifp">
+              Love petting cats 😸, working out at the gym 🏋🏻‍♀️ and learning new
+              things to code. From Mexico 🌮
+            </p>
           </div>
         </div>
-      </nav> */}
+      </div>
     </>
   );
 }
