@@ -62,10 +62,11 @@ font-size: 2vh;
 
 .fontdifp{
   font-family: 'Antic Didone', serif;
-  font-size: 2.1vh;
+  font-size: 2.13vh;
   width: 42vh;
-
+  font-family: 'Roboto', sans-serif;
 }
+
 
 .github{
   margin-top: 1vh;
@@ -91,7 +92,7 @@ font-size: 2vh;
   overflow: hidden;
 }
 .polydiv{
-  background-color: tomato;
+  background-color: #f03753;
   height: 100%;
   width: 100%;
   /* clip-path: polygon(54% 9%, 100% 19%, 100% 91%, 30% 100%, 0 91%, 0 0); */
@@ -108,10 +109,12 @@ font-size: 2vh;
   text-align: center;
   margin-top: 17vh;
   font-family: 'Antic Didone', serif;
+  font-size: 3.5vh;
 }
 .polyh2{
 text-align: center;
-font-family: 'Antic Didone', serif;;
+font-family: 'Roboto', sans-serif;
+font-size: 3vh;
 }
 .svgimg{
   height: 7vh;

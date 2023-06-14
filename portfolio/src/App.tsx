@@ -160,8 +160,12 @@ function App() {
           alt=""
         />
         <div className="headerdiv">
-          <h1 className="fontdif">I'm Alexis Tobias, </h1>
-          <h1 className="fontdif2">Front-End</h1>
+          <h1 className="fontdif">
+            <b>I'm Alexis Tobias,</b>{" "}
+          </h1>
+          <h1 className="fontdif2">
+            <b>Front-End</b>
+          </h1>
           <a href="">
             <img
               className="github"
