@@ -95,7 +95,7 @@ font-size: 2vh;
   height: 100%;
   width: 100%;
   /* clip-path: polygon(54% 9%, 100% 19%, 100% 91%, 30% 100%, 0 91%, 0 0); */
-  clip-path: polygon(0 0, 100% 12%, 100% 100%, 100% 100%, 0 90%, 0 0);
+  clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 95%);
 }
 
  .polycontent{
@@ -132,6 +132,24 @@ font-family: 'Antic Didone', serif;;
   position: absolute;
 }
 
+.liftimg{
+  height: 10vh;
+  display: block;
+  margin-top: 0vh;
+  margin-left: -2%;
+}
+
+@media only screen and (max-width: 1380px){
+  .lift{
+    height: 45vh;
+    margin-left: 58vh;
+    margin-top: 0vh;
+  }
+  .fig{
+    position: relative;
+    margin-top: 5vh;
+  }
+}
 @media only screen and (max-width: 1280px){
   .lift{
     height: 45vh;

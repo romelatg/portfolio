@@ -273,13 +273,18 @@ function App() {
                     <figcaption className="fig">NodeJS</figcaption>
                   </figure>
                 </div>
+                <img
+                  src="https://www.svgrepo.com/show/406352/man-lifting-weights-light-skin-tone.svg"
+                  className="img-fluid liftimg"
+                  alt="..."
+                ></img>
               </div>
             </div>
-            <img
+            {/* <img
               className="lift"
               src="https://www.svgrepo.com/show/406352/man-lifting-weights-light-skin-tone.svg"
               alt=""
-            />
+            /> */}
           </div>
         </div>
       </div>
