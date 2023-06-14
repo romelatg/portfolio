@@ -119,13 +119,6 @@ font-family: 'Antic Didone', serif;;
 }
 
 
-.lift{
-  height: auto;
-  margin-top: 0vh;
-  margin-left: 30vw;
-  overflow: hidden;
-  position: static;
-}
 .fig{
   margin-top: -3vh;
   font-size: 2vh;
@@ -136,100 +129,19 @@ font-family: 'Antic Didone', serif;;
   height: 10vh;
   display: block;
   margin-top: 0vh;
-  margin-left: -2%;
+  margin-left: -1%;
 }
 
-@media only screen and (max-width: 1380px){
-  .lift{
-    height: 45vh;
-    margin-left: 58vh;
-    margin-top: 0vh;
+@media only screen and (max-width: 1194px){
+  .svgimg{
+    height: 6vh;
   }
   .fig{
     position: relative;
-    margin-top: 5vh;
-  }
-}
-@media only screen and (max-width: 1280px){
-  .lift{
-    height: 45vh;
-    margin-left: 58vh;
-    margin-top: 0vh;
-  }
-  .fig{
-    position: relative;
-    margin-top: 5vh;
-  }
-}
-@media only screen and (max-width: 1024px){
-  .lift{
-    height: 45vh;
-    margin-left: 63vh;
-    margin-top: 0vh;
-  }
-  .fig{
-    position: relative;
-    margin-top: 5vh;
-  }
-}
-@media only screen and (max-width: 912px){
-  .lift{
-    height: 45vh;
-    margin-left: 13vh;
-    margin-top: 0vh;
-  }
-  .fig{
-    position: relative;
-    margin-top: 5vh;
-  }
-}
-@media only screen and (max-width: 768px){
-  .lift{
-    height: 45vh;
-    margin-left: 17vh;
-    margin-top: 0vh;
-  }
-  .fig{
-    position: relative;
-    margin-top: 5vh;
+    margin-top: 1vh;
   }
 }
 
-
-@media only screen and (max-width: 450px){
-  .lift{
-    height: 45vh;
-    margin-left: .5vh;
-    margin-top: 0vh;
-  }
-  .fig{
-    position: relative;
-    margin-top: 5vh;
-  }
-}
-@media only screen and (max-width: 375px){
-  .lift{
-    height: 45vh;
-    margin-left: 7vh;
-    margin-top: 0vh;
-  }
-  .fig{
-    position: relative;
-    margin-top: 5vh;
-  }
-}
-@media only screen and (max-width: 285px){
-  .lift{
-    height: 45vh;
-    margin-left: 7vh;
-    margin-top: 0vh;
-  }
-  .fig{
-    position: relative;
-    margin-top: 0vh;
-
-  }
-}
 
 
 

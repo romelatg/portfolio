@@ -280,11 +280,6 @@ function App() {
                 ></img>
               </div>
             </div>
-            {/* <img
-              className="lift"
-              src="https://www.svgrepo.com/show/406352/man-lifting-weights-light-skin-tone.svg"
-              alt=""
-            /> */}
           </div>
         </div>
       </div>
