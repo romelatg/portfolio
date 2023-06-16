@@ -163,9 +163,7 @@ function App() {
           <h1 className="fontdif">
             <b>I'm Alexis Tobias,</b>{" "}
           </h1>
-          <h1 className="fontdif2">
-            <b>Front-End</b>
-          </h1>
+          <h1 className="fontdif2">Front-End</h1>
           <a href="">
             <img
               className="github"
@@ -181,7 +179,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="outerdiv">
+      <div className="outerdiv" id="firstdiv">
         <div className="polydiv">
           <div className="polycontent">
             <h2 className="polyh1">
@@ -285,6 +283,24 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="projectdiv" id="seconddiv">
+        <h2 className="projmain">
+          <b>Projects</b>
+        </h2>
+        <div className="projectinner">
+          <h3 className="projecth3">Rick & Morty API</h3>
+          <img
+            className="img-fluid proj1"
+            src="https://i.postimg.cc/RhDgcNCk/My-project.png"
+            alt=""
+          />
+          <p className="pdesc">
+            Connected to a third party API to successfully request data. The
+            tools used for this project were: HTML, CSS, Typescript, React,
+            NodeJS, and Bootstrap.
+          </p>
         </div>
       </div>
     </>

@@ -2,11 +2,11 @@ export default function Navbar() {
   return (
     <>
       <nav className="navbar-custom">
-        <a href="" className="seperate hvr-grow">
-          Home
+        <a href="#firstdiv" className="seperate hvr-grow">
+          Skills
         </a>
-        <a href="" className="hvr-grow seperate">
-          features
+        <a href="#seconddiv" className="hvr-grow seperate">
+          Projects
         </a>
       </nav>
     </>
