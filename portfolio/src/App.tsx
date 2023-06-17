@@ -296,7 +296,7 @@ function App() {
             src="https://i.postimg.cc/RhDgcNCk/My-project.png"
             alt=""
           />
-          <p className="pdesc">
+          <p className="pdesc text-start">
             Connected to a third party API to successfully request data. The
             tools used for this project were: HTML, CSS, Typescript, React,
             NodeJS, and Bootstrap.
