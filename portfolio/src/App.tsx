@@ -164,7 +164,7 @@ function App() {
             <b>I'm Alexis Tobias,</b>{" "}
           </h1>
           <h1 className="fontdif2">Front-End</h1>
-          <a href="">
+          <a target="_blank" href="https://github.com/romelatg">
             <img
               className="github"
               src="https://www.svgrepo.com/show/512317/github-142.svg"
@@ -289,7 +289,7 @@ function App() {
         <h2 className="projmain">
           <b>Projects</b>
         </h2>
-        <div className="projectinner">
+        <div className="projectinner text-center">
           <h3 className="projecth3">Rick & Morty API</h3>
           <img
             className="img-fluid proj1"
@@ -301,6 +301,13 @@ function App() {
             tools used for this project were: HTML, CSS, Typescript, React,
             NodeJS, and Bootstrap.
           </p>
+          <a
+            className="custombtn btn btn-primary hvr-float-shadow hvr-sweep-to-top"
+            target="blank"
+            href="https://github.com/romelatg/rickapi"
+          >
+            <b>View Github Repository</b>
+          </a>
         </div>
       </div>
     </>
