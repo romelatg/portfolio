@@ -174,7 +174,7 @@ function App() {
           <div>
             <p className="fontdifp">
               Love petting cats 😸, working out at the gym 🏋🏻‍♀️ and learning new
-              things to code. From Mexico 🌮
+              things to code. From Mexico 🌮 Email: alexisrtobias@gmail.com
             </p>
           </div>
         </div>
